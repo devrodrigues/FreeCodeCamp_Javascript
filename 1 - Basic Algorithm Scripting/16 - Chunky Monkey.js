@@ -1,3 +1,6 @@
+// Algoritmo que divide um array em grupos iguais, quando possível, retornando um array 
+//bidimensional
+
 function chunkArrayInGroups(arr, size) {
     //Definimos um array para receber as partes do array original
     let arrayN = [];

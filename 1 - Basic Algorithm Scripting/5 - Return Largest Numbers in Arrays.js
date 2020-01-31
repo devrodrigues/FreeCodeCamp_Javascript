@@ -1,3 +1,5 @@
+// Algoritmo que retorna o maior número de cada subarray oferecido
+
 function largestOfFour(arr) {
     let arraylargestN = [];
     

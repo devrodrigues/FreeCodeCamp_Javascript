@@ -1,3 +1,5 @@
+// Algoritmo que copia todos os elementos do segundo array no primeiro a partir do índice determinado
+
 function frankenSplice(arr1, arr2, n) {
     /*Primeiro adicionamos o conteúdo do arr2 em uma variável para que possamos
     fazer alterações*/

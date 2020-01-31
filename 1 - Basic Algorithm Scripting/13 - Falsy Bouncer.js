@@ -1,3 +1,5 @@
+// Algoritmo que remove todos os valores booleanos "false" de um array
+
 function bouncer(arr) {
     let arrTrue = [];
 
@@ -11,3 +13,5 @@ function bouncer(arr) {
   }
   
 console.log(bouncer([7, "ate", "", false, 9]));
+console.log(bouncer([false, null, 0, NaN, undefined, ""]));
+console.log(bouncer([null, NaN, 1, 2, undefined]));

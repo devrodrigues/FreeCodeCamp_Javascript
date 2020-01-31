@@ -1,3 +1,6 @@
+// Algoritmo que retorna qual é o menor índice que um determinado valor deve ser inserido em 
+//um array organizado de forma crescente
+
 function getIndexToIns(arr, num) {
     //Coloque o array em ordem crescente
     arr.sort(function(a, b){
