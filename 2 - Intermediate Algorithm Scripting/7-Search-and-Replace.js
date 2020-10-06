@@ -16,7 +16,6 @@ example if you mean to replace the word "Book" with the word "dog", it should be
 
 //My solution:
 
-//se a palavra original começar com maiúsculo, deve manter isso
 function myReplace(str, before, after) {
   const strWord = str.match(before)[0];
   const isUppercase = /^[A-Z]/.test(strWord[0]);
